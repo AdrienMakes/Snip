@@ -188,6 +188,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="Resources\Strings.cs-CZ.txt" />
     <Content Include="Resources\Strings.pl-PL.txt" />
     <Content Include="Resources\Strings.es-CL.txt" />

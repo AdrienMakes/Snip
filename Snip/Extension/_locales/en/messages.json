@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Snip Web Helper",
+    "description": "Browser extention's name"
+  },
+  "extDescription": {
+    "message": "Sends track information to Snip",
+    "description": "Browser extention's description"
+  }
+}

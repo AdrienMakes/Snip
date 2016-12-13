@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0",
+
+  "default_locale": "en",
+  "icons": {
+    "16": "Snip16.png",
+    "24": "Snip24.png",
+    "32": "Snip32.png",
+    "48": "Snip48.png",
+    "64": "Snip64.png",
+    "128": "Snip128.png",
+    "256": "Snip256.png"
+  },
+
+  "background": {
+    "scripts": [ "eventPage.js" ],
+    "persistent": false
+  },
+
+  "homepage_url": "https://github.com/dlrudie/Snip",
+
+  "permissions": [
+    "tabs",
+    "nativeMessaging",
+    "*://*.youtube.com/*"
+  ]
+}
